@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Finish Worker</title>
+  <link rel="shortcut icon" href="img/header-logo.png">
+  <link rel="stylesheet" href="css/ui.css">
+  <link rel="stylesheet" href="css/null.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Montserrat:wght@400;700;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="page">
+      <header class="header">
+        <div class="header__container _container">
+          <div class="header__logo">
+            <a href="#header" class="header__logo-link _goto">
+              <img src="img/finisk-wirker-logo.png" alt="">
+            </a>
+          </div>
+          <a class="header__phone" href="tel:+74957803084">
+            <svg id="phone" viewBox="0 0 18 18">
+              <path
+                d="M17.9606 13.9467C17.9097 13.7933 17.5858 13.5673 16.9891 13.2693C16.8275 13.1754 16.5972 13.0477 16.2991 12.8857C16.0008 12.7238 15.7301 12.5745 15.4873 12.4382C15.2441 12.3018 15.0162 12.1697 14.8033 12.0421C14.7693 12.0165 14.6628 11.942 14.4838 11.8182C14.3047 11.6947 14.1536 11.603 14.0298 11.5433C13.9062 11.4838 13.7847 11.4539 13.6654 11.4539C13.495 11.4539 13.2821 11.5754 13.0265 11.8182C12.7709 12.0612 12.5365 12.3252 12.3235 12.611C12.1105 12.8966 11.8846 13.1606 11.6462 13.4035C11.4075 13.6465 11.2113 13.7679 11.0581 13.7679C10.9812 13.7679 10.8853 13.7465 10.7703 13.7042C10.6554 13.6616 10.568 13.6251 10.508 13.5957C10.4486 13.5656 10.3465 13.5062 10.2015 13.4164C10.0563 13.3269 9.9755 13.2778 9.95848 13.2693C8.79094 12.6214 7.78961 11.8799 6.9543 11.045C6.11927 10.2095 5.37768 9.2083 4.72999 8.04062C4.72149 8.02356 4.67237 7.94256 4.58295 7.79776C4.49339 7.65281 4.43371 7.55068 4.40389 7.49086C4.37407 7.43126 4.33784 7.34386 4.2953 7.22883C4.25277 7.1138 4.23141 7.01798 4.23141 6.94118C4.23141 6.78787 4.35289 6.59175 4.5958 6.35309C4.83867 6.11457 5.10294 5.88863 5.38834 5.67572C5.67397 5.4628 5.93797 5.22835 6.18093 4.97277C6.42379 4.71705 6.54523 4.5041 6.54523 4.33368C6.54523 4.21444 6.51541 4.09287 6.45581 3.96933C6.39617 3.84553 6.30455 3.69445 6.18093 3.51539C6.05725 3.33642 5.9827 3.22999 5.95709 3.19573C5.82939 2.98282 5.69743 2.75486 5.56091 2.51195C5.42439 2.26909 5.27537 1.99837 5.11337 1.70011C4.9515 1.40199 4.82375 1.1718 4.7299 1.00989C4.43178 0.41342 4.20598 0.0894184 4.05253 0.0384629C3.99284 0.0128956 3.90329 0 3.78409 0C3.55385 0 3.25349 0.0425375 2.88279 0.127881C2.51195 0.213091 2.22015 0.302464 2.00705 0.39636C1.58092 0.575242 1.12926 1.0951 0.651943 1.95574C0.2173 2.7567 0 3.54947 0 4.33345C0 4.56338 0.0149105 4.78708 0.0447316 5.00461C0.0745526 5.22191 0.127836 5.46697 0.204628 5.73975C0.281285 6.01243 0.343121 6.215 0.389868 6.34691C0.436659 6.47891 0.524018 6.71538 0.651899 7.05639C0.779601 7.39732 0.856392 7.60602 0.88196 7.68273C1.18021 8.51798 1.5339 9.26364 1.94293 9.91993C2.61592 11.0108 3.53433 12.1381 4.69762 13.3015C5.86095 14.4648 6.98806 15.3831 8.07899 16.0564C8.73519 16.4654 9.48112 16.819 10.3162 17.1175C10.393 17.1429 10.6017 17.2195 10.9425 17.3477C11.2834 17.4755 11.52 17.5629 11.652 17.6097C11.784 17.6567 11.9866 17.7185 12.2591 17.7953C12.5321 17.8721 12.777 17.9254 12.9943 17.9554C13.2117 17.9849 13.4355 18 13.6654 18C14.4494 18 15.2422 17.7826 16.0433 17.348C16.9038 16.8709 17.4235 16.4191 17.6025 15.9927C17.6966 15.7798 17.7858 15.4879 17.871 15.1171C17.9565 14.7464 17.9989 14.4461 17.9989 14.2159C17.9992 14.0962 17.9863 14.0069 17.9606 13.9467Z">
+              </path>
+            </svg><span>7-495-780-30-84</span>
+          </a>
+          <div class="header__menu menu">
+            <div class="menu__icon icon-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li><a href="#about" class="menu__link _goto">О компании</a></li>
+                <li><a href="#advantage" class="menu__link _goto">Преимущества</a></li>
+                <li><a href="#get-started" class="menu__link _goto">Как начать</a></li>
+                <li><a href="#contacts" class="menu__link _goto">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="main__container _container">
+          <div class="main__content content-main">
+            <div class="content-main__body">
+              <h1 class="content-main__title">
+                Присоединяйтесь к сервису получения строительных заказов
+              </h1>
+              <div class="content-main__adv main-adv">
+                <ul class="main-adv__list">
+                  <li class="main-adv__link">
+                    1. Еженедельная оплата
+                  </li>
+                  <li class="main-adv__link">
+                    2. Моментальная фиксация заработка при приеме работ в личном кабинете
+                  </li>
+                  <li class="main-adv__link">
+                    3. Выдача и прием работ через мобильное приложение
+                  </li>
+                  <li class="main-adv__link">
+                    4. Помощь на всех этапах сотрудничества
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="content-main__btns">
+              <a href="https://www.finish-worker.ru/personal" target="_blank" class="content-main__btn btn">
+                Зарегистрироваться
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <section class="about">
+        <div class="about__container _container">
+          <div class="about__title title">
+            О компании
+          </div>
+          <div class="about__text">
+            Finish Worker - автоматизированный онлайн-сервис по
+            управлению работой через мобильное приложение
+          </div>
+        </div>
+      </section>
+      <section class="advantage">
+        <div class="advantage__container _container">
+          <div class="advantage__title title">
+            Почему с нами выгодно работать?
+          </div>
+          <div class="advantage__body body-advantage">
+            <div class="body-advantage__items">
+              <div class="body-advantage__item">
+                <div class="body-advantage__item-icon">
+                  <img src="img/icons/01-svg.svg" alt="">
+                </div>
+                <div class="body-advantage__item-text">
+                  Прозрачная оплата без задержек
+                </div>
+              </div>
+              <div class="body-advantage__item">
+                <div class="body-advantage__item-icon">
+                  <img src="img/icons/02-svg.svg" alt="">
+                </div>
+                <div class="body-advantage__item-text">
+                  Вы самостоятельно выбираете заказ
+                </div>
+              </div>
+              <div class="body-advantage__item">
+                <div class="body-advantage__item-icon">
+                  <img src="img/icons/03-svg.svg" alt="">
+                </div>
+                <div class="body-advantage__item-text">
+                  История выполнения работ в личном кабинете.
+                  Больше не нужно использовать записную
+                  книжку - все данные о настоящих и
+                  выполненных работах всегда под рукой в
+                </div>
+              </div>
+            </div>
+            <div class="body-advantage__img _ibg">
+              <iframe width="1086" height="611" src="https://www.youtube.com/embed/qHo8HLIQRKE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="get-started">
+        <div class="get-started__container _container">
+          <div class="get-started__title title">
+            Как начать получать заказы?
+          </div>
+          <div class="get-started__items">
+            <div class="get-started-item">
+              <div class="get-started-item__number item-number">1</div>
+              <div class="get-started-item__body">
+                <div class="get-started-item__body-title">
+                  Зарегистрируйтесь
+                </div>
+                <div class="get-started-item__body-text">
+                  В окне регистрации укажите Вашу электронную
+                  почту и пароль. В личном кабинете укажите свои
+                  данные, телефон. Загрузите свою фотографию.
+                  Укажите основную и дополнительную профессии,
+                  количество лет опыта работы. Выберете те виды работ,
+                  которые Вы готовы выполнять.
+                </div>
+                <a href="https://www.finish-worker.ru/personal" target="_blank" class="get-started__btn btn">
+                  Зарегистрироваться
+                </a>
+              </div>
+            </div>
+            <div class="get-started-item">
+              <div class="get-started-item__number item-number">2</div>
+              <div class="get-started-item__body">
+                <div class="get-started-item__body-title">
+                  Определитесь с методом работы «по объёму» или «почасовая работа».
+                </div>
+                <div class="get-started-item__body-text"></div>
+              </div>
+            </div>
+            <div class="get-started-item">
+              <div class="get-started-item__number item-number">3</div>
+              <div class="get-started-item__body">
+                <div class="get-started-item__body-title">
+                  Укажите номер карты, куда будут поступать платежи
+                </div>
+                <div class="get-started-item__body-text"></div>
+              </div>
+            </div>
+            <div class="get-started-item">
+              <div class="get-started-item__number item-number">4</div>
+              <div class="get-started-item__body">
+                <div class="get-started-item__body-title">
+                  Скачайте бесплатное приложение Finish Worker
+                  на мобильный телефон для отслеживания поступивших
+                  заказов в режиме реального времени.
+                </div>
+                <div class="get-started-item__body-text"></div>
+                <div class="get-started-item__body-apps">
+                  <a class="get-started-item__body-app" href="https://apps.apple.com/ru/app/finish-worker/id1499489035"
+                    target="_blank">
+                    <img src="img/appstore.png">
+                  </a>
+                  <a class="get-started-item__body-app"
+                    href="https://play.google.com/store/apps/details?id=com.finishworker&amp;hl=ru&amp;gl=US"
+                    target="_blank">
+                    <img src="img/googleplay.png">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="get-started-item">
+            <div class="get-started-item__number item-number">5</div>
+            <div class="get-started-item__body">
+              <div class="get-started-item__body-title">
+                Получайте оплату выполненных работ еженедельно.
+              </div>
+              <div class="get-started-item__body-text"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="get-order">
+        <div class="get-order__container _container">
+          <!-- <div class="get-started__title title">
+            Как начать получать заказы?
+          </div> -->
+          <div class="get-order__items">
+            <div class="get-order__item order-item">
+              <div class="order-item__desc">
+                <div class="order-item__desc__number item-number">1</div>
+                <div class="order-item__desc__body-title item__body-title">
+                  Для бригадира со своей бригадой:
+                </div>
+              </div>
+              <div class="order-item__img _ibg">
+                <img src="img/manager1.png" alt="Фото 1">
+              </div>
+            </div>
+            <div class="get-order__item order-item">
+              <div class="order-item__desc">
+                <div class="order-item__desc__number item-number">2</div>
+                <div class="order-item__desc__body-title item__body-title">
+                  Вы откликаетесь на конкретную работу по Вашей специальности и
+                  узнаете все подробности заказа
+                </div>
+              </div>
+              <div class="order-item__img _ibg">
+                <img src="img/manager2.jpg" alt="Фото 2">
+              </div>
+            </div>
+            <div class="get-order__item order-item">
+              <div class="order-item__desc">
+                <div class="order-item__desc__number item-number">3</div>
+                <div class="order-item__desc__body-title item__body-title">
+                  Вы сами принимаете решение УЧАСТВОВАТЬ в конкретном заказе!
+                  Перед КАЖДЫМ заказом сервис снова напоминает о правилах и критериях работы!
+                </div>
+              </div>
+              <div class="order-item__img _ibg">
+                <img src="img/manager3.png" alt="Фото 3">
+              </div>
+            </div>
+            <div class="get-order__item order-item">
+              <div class="order-item__desc">
+                <div class="order-item__desc__number item-number">4</div>
+                <div class="order-item__desc__body-title item__body-title">
+                  Чтобы бригадир смог УЧАСТВОВАТЬ в заказе, ему нужно выбрать
+                  из своей бригады свободных и с подходящей квалификацией
+                  специалистов, с которыми можно будет выполнить конкретную работу.
+                </div>
+              </div>
+              <div class="order-item__img _ibg">
+                <img src="img/advantages.jpg" alt="Фото 4">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="get-order for-worker">
+        <div class="get-order__container _container">
+          <div class="get-order__items">
+            <div class="get-order__item order-item">
+              <div class="order-item__desc">
+                <div class="order-item__desc__number item-number">1</div>
+                <div class="order-item__desc__body-title item__body-title">
+                  Для самостоятельного специалиста:
+                </div>
+              </div>
+              <div class="order-item__img _ibg">
+                <img src="img/manager1.png" alt="Фото для рабочих 1">
+              </div>
+            </div>
+            <div class="get-order__item order-item">
+              <div class="order-item__desc">
+                <div class="order-item__desc__number item-number">2</div>
+                <div class="order-item__desc__body-title item__body-title">
+                  Вы регистрируетесь на сайте как САМОСТОЯТЕЛЬНЫЙ специалист,
+                  откликаетесь на конкретную работу по Вашей специальности и
+                  узнаете все подробности заказа.
+                </div>
+              </div>
+              <div class="order-item__img _ibg">
+                <img src="img/manager2.jpg" alt="Фото для рабочих 2">
+              </div>
+            </div>
+            <div class="get-order__item order-item">
+              <div class="order-item__desc">
+                <div class="order-item__desc__number item-number">3</div>
+                <div class="order-item__desc__body-title item__body-title">
+                  Вы сами принимаете решение УЧАСТВОВАТЬ в конкретном заказе!
+                  Перед КАЖДЫМ заказом сервис снова напоминает о правилах и критериях работы!
+                </div>
+              </div>
+              <div class="order-item__img _ibg">
+                <img src="img/manager3.png" alt="Фото для рабочих 3">
+              </div>
+            </div>
+            <div class="get-order__item order-item">
+              <div class="order-item__desc">
+                <div class="order-item__desc__number item-number">4</div>
+                <div class="order-item__desc__body-title item__body-title">
+                  Материал, нормы по дням сервис рассчитает автоматически
+                </div>
+              </div>
+              <div class="order-item__img _ibg">
+                <img src="img/advantages.jpg" alt="">
+              </div>
+            </div>
+            <div class="get-order__item order-item">
+              <div class="order-item__desc">
+                <div class="order-item__desc__number item-number">5</div>
+                <div class="order-item__desc__body-title item__body-title">
+                  Самостоятельный специалист ежедневно отправляет отчеты
+                  на сервис и получает еженедельную выплату по факту принятых
+                  работ. Начисление и выплата отображается в личном
+                  кабинете самостоятельного специалиста.
+                </div>
+              </div>
+              <div class="order-item__img _ibg">
+                <img src="img/manager3.png" alt="Фото для рабочих 5">
+              </div>
+            </div>
+            <div class="get-order__item order-item">
+              <div class="order-item__desc">
+                <div class="order-item__desc__number item-number">6</div>
+                <div class="order-item__desc__body-title item__body-title">
+                  Если у Вас появляется вопрос к заказчику - Вы можете задать
+                  его в формате онлайн-чата на сервисе, где сохраняется вся
+                  переписка по ВСЕМ прошлым и настоящим заказам.
+                </div>
+              </div>
+              <div class="order-item__img _ibg">
+                <img src="img/manager3.png" alt="Фото для рабочих 6">
+              </div>
+            </div>
+          </div>
+          <div class="for-worker__footer">
+            Успешной работы!
+          </div>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="contacts__container _container">
+          <div class="contacts__title title">
+            Наши контакты
+          </div>
+          <div class="contacts__body">
+            <div class="contacts__body-contacts body-contacts">
+              <a href="tel:84957803084" target="_blanc" class="body-contacts__phone">
+                Телефон: 8 495 780 30 84
+              </a>
+              <a href="mailto:hr@finish-worker.ru" target="_blanc" class="body-contacts__email">
+                Почта: <span>hr@finish-worker.ru</span>
+              </a>
+              <a href="https://www.google.com/maps/place/%D0%91%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D1%86%D0%B5%D0%BD%D1%82%D1%80+%22%D0%92%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2%D0%B0+20%22/@55.8159247,37.5251563,16.98z/data=!4m5!3m4!1s0x46b549a5d7aa5525:0x21b98b5c2983b578!8m2!3d55.8159593!4d37.5273659"
+                class="body-contacts__adress" target="_blanc">
+                г. Москва, ул. Космонавта Волкова, д. 20, БЦ «Волкова 20»
+              </a>
+              <div class="body-contacts__social">
+                <a href="" class="body-contacts__social-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 50 50" width="50px" height="50px">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24ZM25.2555 31.8761C25.2555 31.8761 25.7175 31.8257 25.9541 31.5762C26.1707 31.3476 26.1632 30.9162 26.1632 30.9162C26.1632 30.9162 26.1344 28.9018 27.0873 28.6043C28.0264 28.3118 29.2321 30.5524 30.5118 31.414C31.4784 32.0654 32.2121 31.9228 32.2121 31.9228L35.6316 31.8761C35.6316 31.8761 37.4196 31.7679 36.5719 30.3877C36.5018 30.2746 36.0773 29.3664 34.0302 27.5006C31.8853 25.5477 32.1733 25.8635 34.7551 22.4849C36.3278 20.4274 36.9563 19.1713 36.7597 18.6343C36.5732 18.1205 35.4162 18.2569 35.4162 18.2569L31.5673 18.2803C31.5673 18.2803 31.2818 18.2422 31.0702 18.3663C30.8636 18.488 30.7296 18.7719 30.7296 18.7719C30.7296 18.7719 30.1211 20.3635 29.3085 21.7179C27.5944 24.5743 26.9095 24.7254 26.629 24.5485C25.9767 24.1343 26.1394 22.8868 26.1394 22.0006C26.1394 19.2316 26.5677 18.0775 25.3068 17.7788C24.8886 17.6793 24.5806 17.6141 23.51 17.6031C22.1365 17.5896 20.9745 17.608 20.3159 17.9239C19.8777 18.134 19.5396 18.6035 19.7462 18.6306C20.0004 18.6637 20.5764 18.783 20.8819 19.191C21.2763 19.7183 21.2625 20.9006 21.2625 20.9006C21.2625 20.9006 21.4892 24.1601 20.7329 24.5644C20.2145 24.8422 19.5033 24.2756 17.9745 21.6835C17.192 20.3562 16.601 18.8887 16.601 18.8887C16.601 18.8887 16.487 18.6146 16.2829 18.4671C16.0363 18.2889 15.6919 18.2336 15.6919 18.2336L12.0346 18.2569C12.0346 18.2569 11.4849 18.2717 11.2833 18.5064C11.1043 18.7141 11.2695 19.1455 11.2695 19.1455C11.2695 19.1455 14.1331 25.7222 17.376 29.037C20.3497 32.0752 23.7254 31.8761 23.7254 31.8761H25.2555Z" />
+                  </svg>
+                </a>
+                <a href="" class="body-contacts__social-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                    id="Capa_1" x="0px" y="0px" width="97.75px" height="97.75px" viewBox="0 0 97.75 97.75"
+                    style="enable-background:new 0 0 97.75 97.75;" xml:space="preserve">
+                    <g>
+                      <g>
+                        <path
+                          d="M48.921,40.507c4.667-0.017,8.384-3.766,8.367-8.443c-0.017-4.679-3.742-8.402-8.411-8.406    c-4.708-0.005-8.468,3.787-8.432,8.508C40.48,36.826,44.239,40.524,48.921,40.507z" />
+                        <path
+                          d="M48.875,0C21.882,0,0,21.883,0,48.875S21.882,97.75,48.875,97.75S97.75,75.867,97.75,48.875S75.868,0,48.875,0z     M48.945,14.863c9.52,0.026,17.161,7.813,17.112,17.438c-0.048,9.403-7.814,17.024-17.318,16.992    c-9.407-0.032-17.122-7.831-17.066-17.253C31.726,22.515,39.445,14.837,48.945,14.863z M68.227,56.057    c-2.105,2.161-4.639,3.725-7.453,4.816c-2.66,1.031-5.575,1.55-8.461,1.896c0.437,0.474,0.642,0.707,0.914,0.979    c3.916,3.937,7.851,7.854,11.754,11.802c1.33,1.346,1.607,3.014,0.875,4.577c-0.799,1.71-2.592,2.834-4.351,2.713    c-1.114-0.077-1.983-0.63-2.754-1.407c-2.956-2.974-5.968-5.895-8.862-8.925c-0.845-0.882-1.249-0.714-1.994,0.052    c-2.973,3.062-5.995,6.075-9.034,9.072c-1.365,1.346-2.989,1.59-4.573,0.82c-1.683-0.814-2.753-2.533-2.671-4.262    c0.058-1.166,0.632-2.06,1.434-2.858c3.877-3.869,7.742-7.75,11.608-11.628c0.257-0.257,0.495-0.53,0.868-0.93    c-5.273-0.551-10.028-1.849-14.099-5.032c-0.506-0.396-1.027-0.778-1.487-1.222c-1.783-1.711-1.962-3.672-0.553-5.69    c1.207-1.728,3.231-2.19,5.336-1.197c0.408,0.191,0.796,0.433,1.168,0.689c7.586,5.213,18.008,5.356,25.624,0.233    c0.754-0.576,1.561-1.05,2.496-1.289c1.816-0.468,3.512,0.201,4.486,1.791C69.613,52.874,69.6,54.646,68.227,56.057z" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a href="" class="body-contacts__social-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="t-sociallinks__svg" width="30" height="30"
+                    viewBox="0 0 60 60" xml:space="preserve">
+                    <path
+                      d="M30 0C13.4 0 0 13.4 0 30s13.4 30 30 30 30-13.4 30-30S46.6 0 30 0zm16.9 13.9-6.7 31.5c-.1.6-.8.9-1.4.6l-10.3-6.9-5.5 5.2c-.5.4-1.2.2-1.4-.4L18 32.7l-9.5-3.9c-.7-.3-.7-1.5 0-1.8l37.1-14.1c.7-.2 1.4.3 1.3 1z" />
+                    <path d="m22.7 40.6.6-5.8 16.8-16.3-20.2 13.3" />
+                  </svg>
+                </a>
+                <a href="" class="body-contacts__social-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 50 50" width="50px" height="50px">
+                    <path
+                      d="M47.761 24c0 13.121-10.638 23.76-23.758 23.76C10.877 47.76.239 37.121.239 24 .239 10.876 10.877.24 24.003.24 37.123.24 47.761 10.876 47.761 24M20.033 38.85H26.2V24.01h4.163l.539-5.242H26.2v-3.083c0-1.156.769-1.427 1.308-1.427h3.318v-5.09l-4.568-.018c-5.072 0-6.225 3.796-6.225 6.224v3.394H17.1v5.242h2.933v14.84z" />
+                  </svg>
+                </a>
+                <a href="" class="body-contacts__social-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 50 50" width="50px" height="50px">
+                    <path
+                      d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="contacts__body-question body-question">
+              <form action="sendform.php" method="post" class="body-question__form form-question form">
+                <input name="email" type="email" placeholder="Ваш e-mail" required class="form-question__email">
+                <input name="name" type="name" placeholder="Ваше имя" required class="form-question__name">
+                <textarea name="text" id="" cols="30" rows="10" required placeholder="Ваше сообщение"
+                  class="form-question__text"></textarea>
+                <button type="submit" class="form-question__btn btn">Отправить вопрос</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        © 2021
+      </footer>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
