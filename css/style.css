@@ -289,7 +289,7 @@
 .item-number {
     width: 35px;
     height: 35px;
-    background-color: #00F000;
+    background-color: #8AF41E;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -387,7 +387,7 @@
     margin-bottom: 20px;
 }
 .order-item__img {
-    height: 200px;
+    height: 400px;
     width: 390px;
     display: flex;
     justify-content: center;
@@ -395,11 +395,24 @@
     padding: 0 10px;
     /* margin-right: 50px; */
 }
+.order-item__img-width {
+    height: 220px;
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.order-item__img-width img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
 .order-item__img img {
     max-width: 100%;
     max-height: 100%;
-    border-radius: 20px;
-    
+    border-radius: 10px;
 }
 
 
@@ -1099,6 +1112,14 @@
     }
     .order-item__img {
         width: 100%;
+    }
+    .order-item__img-width {
+        height: 150px;
+        max-width: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
     }
 }
 @media (max-width: 685px) {
