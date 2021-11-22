@@ -9,6 +9,7 @@
   <link rel="shortcut icon" href="img/header-logo.png">
   <link rel="stylesheet" href="css/ui.css">
   <link rel="stylesheet" href="css/null.css">
+  <link rel="stylesheet" href="css/popup.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +21,7 @@
 <body>
   <div class="wrapper">
     <div class="page">
-      <header class="header">
+      <header class="header lock-padding">
         <div class="header__container _container">
           <div class="header__logo">
             <a href="#header" class="header__logo-link _goto">
@@ -145,7 +146,7 @@
           </div>
           <div class="get-started__items">
             <div class="get-started-item">
-              <div class="get-started-item__number item-number">1</div>
+              <div class="get-started-item__number item-number">✓</div>
               <div class="get-started-item__body">
                 <div class="get-started-item__body-title">
                   Зарегистрируйтесь
@@ -163,198 +164,361 @@
                 </a>
               </div>
             </div>
-            <div class="get-started-item">
-              <div class="get-started-item__number item-number">2</div>
-              <div class="get-started-item__body">
-                <div class="get-started-item__body-title">
-                  Определитесь с методом работы «по объёму» или «почасовая работа».
+            <div class="get-started__bottom">
+              <div class="get-started__bottom-text">
+                <div class="get-started-item">
+                  <div class="get-started-item__number item-number">✓</div>
+                  <div class="get-started-item__body">
+                    <div class="get-started-item__body-title">
+                      Определитесь с методом работы «по объёму» или «почасовая работа».
+                    </div>
+                    <div class="get-started-item__body-text"></div>
+                  </div>
                 </div>
-                <div class="get-started-item__body-text"></div>
-              </div>
-            </div>
-            <div class="get-started-item">
-              <div class="get-started-item__number item-number">3</div>
-              <div class="get-started-item__body">
-                <div class="get-started-item__body-title">
-                  Укажите номер карты, куда будут поступать платежи
+                <div class="get-started-item">
+                  <div class="get-started-item__number item-number">✓</div>
+                  <div class="get-started-item__body">
+                    <div class="get-started-item__body-title">
+                      Укажите номер карты, куда будут поступать платежи
+                    </div>
+                    <div class="get-started-item__body-text"></div>
+                  </div>
                 </div>
-                <div class="get-started-item__body-text"></div>
-              </div>
-            </div>
-            <div class="get-started-item">
-              <div class="get-started-item__number item-number">4</div>
-              <div class="get-started-item__body">
-                <div class="get-started-item__body-title">
-                  Скачайте бесплатное приложение Finish Worker
-                  на мобильный телефон для отслеживания поступивших
-                  заказов в режиме реального времени.
+                <div class="get-started-item">
+                  <div class="get-started-item__number item-number">✓</div>
+                  <div class="get-started-item__body">
+                    <div class="get-started-item__body-title">
+                      Скачайте бесплатное приложение Finish Worker
+                      на мобильный телефон для отслеживания поступивших
+                      заказов в режиме реального времени.
+                    </div>
+                    <div class="get-started-item__body-text"></div>
+                    <div class="get-started-item__body-apps">
+                      <a class="get-started-item__body-app"
+                        href="https://apps.apple.com/ru/app/finish-worker/id1499489035" target="_blank">
+                        <img src="img/appstore.png">
+                      </a>
+                      <a class="get-started-item__body-app"
+                        href="https://play.google.com/store/apps/details?id=com.finishworker&amp;hl=ru&amp;gl=US"
+                        target="_blank">
+                        <img src="img/googleplay.png">
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <div class="get-started-item__body-text"></div>
-                <div class="get-started-item__body-apps">
-                  <a class="get-started-item__body-app" href="https://apps.apple.com/ru/app/finish-worker/id1499489035"
-                    target="_blank">
-                    <img src="img/appstore.png">
-                  </a>
-                  <a class="get-started-item__body-app"
-                    href="https://play.google.com/store/apps/details?id=com.finishworker&amp;hl=ru&amp;gl=US"
-                    target="_blank">
-                    <img src="img/googleplay.png">
-                  </a>
+                <div class="get-started-item">
+                  <div class="get-started-item__number item-number">✓</div>
+                  <div class="get-started-item__body">
+                    <div class="get-started-item__body-title">
+                      Получайте оплату выполненных работ еженедельно.
+                    </div>
+                    <div class="get-started-item__body-text"></div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="get-started-item">
-            <div class="get-started-item__number item-number">5</div>
-            <div class="get-started-item__body">
-              <div class="get-started-item__body-title">
-                Получайте оплату выполненных работ еженедельно.
-              </div>
-              <div class="get-started-item__body-text"></div>
+              <a href="#getstarted" class="get-started__bottom-img _ibg popup-link">
+                <img src="img/get-started.jpg" alt="">
+              </a>
             </div>
           </div>
         </div>
       </section>
       <section class="get-order">
         <div class="get-order__container _container">
+          <div class="get-order__title title">
+            Как это работает?
+          </div>
+          <div class="get-started__subtitle">
+            Для бригадира со своей бригадой:
+          </div>
+          <div class="get-order__item order-item">
+            <div class="order-item__number">
+              1
+            </div>
+            <div class="order-item__description order-item__description-right">
+              <div class="order-item__text order-item__text-width">
+                Вы откликаетесь на конкретную
+                работу по Вашей
+                специальности и узнаете все
+                подробности заказа.
+              </div>
+            </div>
+            <a href="#image1" class="order-item__img order-item__img-width _ibg popup-link">
+              <img src="img/manager1.jpg" alt="">
+            </a>
+          </div>
+          <div class="get-order__item order-item">
+            <div class="order-item__number">
+              2
+            </div>
+            <div class="order-item__description order-item__description-left">
+              <div class="order-item__text">
+                Вы сами принимаете решение
+                УЧАСТВОВАТЬ в конкретном
+                заказе! Перед КАЖДЫМ
+                заказом сервис снова
+                напоминает о правилах и
+                критериях работы!
+              </div>
+              <a href="#image2" class="order-item__img order-item__img-left _ibg popup-link">
+                <img src="img/manager2.jpg" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="get-order__item order-item">
+            <div class="order-item__number">
+              3
+            </div>
+            <div class="order-item__description order-item__description-right">
+              <div class="order-item__text">
+                Чтобы бригадир смог
+                УЧАСТВОВАТЬ в заказе, ему
+                нужно выбрать из своей
+                бригады свободных и с
+                подходящей квалификацией
+                специалистов, с которыми
+                можно будет выполнить
+                конкретную работу.
+              </div>
+            </div>
+            <a href="#image2" class="order-item__img order-item__img-right _ibg popup-link">
+              <img src="img/manager3.jpg" alt="">
+            </a>
+          </div>
+          <div class="get-order__item order-item">
+            <div class="order-item__number">
+              4
+            </div>
+            <div class="order-item__description order-item__description-left">
+              <div class="order-item__text">
+                Количество необходимых
+                специалистов, материал, нормы
+                по дням сервис рассчитает
+                автоматически
+              </div>
+              <a href="#image-servise-auto" class="order-item__img order-item__img-left _ibg popup-link">
+                <img src="img/servise-auto.jpg" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="get-order__item order-item">
+            <div class="order-item__number">
+              5
+            </div>
+            <div class="order-item__description order-item__description-right">
+              <div class="order-item__text">
+                На странице бригадира отражены
+                все МАСТЕРА (Исполнители),
+                которых он выбрал при
+                оформлении заказа.
+              </div>
+            </div>
+            <a href="#image4" class="order-item__img order-item__img-right _ibg popup-link">
+              <img src="img/manager4.jpg" alt="">
+            </a>
+          </div>
+          <div class="get-order__item order-item">
+            <div class="order-item__number">
+              6
+            </div>
+            <div class="order-item__description order-item__description-left">
+              <div class="order-item__text">
+                Бригадир ежедневно отправляет
+                отчеты на сервис и получает
+                еженедельную выплату для себя
+                и своей бригады по факту
+                принятых работ. Начисление и
+                выплата отображается в личном
+                кабинете бригадира.
+              </div>
+              <a href="#image4" class="order-item__img order-item__img-left _ibg popup-link">
+                <img src="img/manager4.jpg" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="get-order__item order-item">
+            <div class="order-item__number">
+              7
+            </div>
+            <div class="order-item__description order-item__description-right">
+              <div class="order-item__text">
+                Если у бригадира появляется
+                вопрос к заказчику - он может
+                задать его в формате
+                онлайн-чата на сервисе, где
+                сохраняется вся переписка по
+                ВСЕМ прошлым и настоящим
+                заказам.
+              </div>
+            </div>
+            <a href="#image2" class="order-item__img order-item__img-right _ibg popup-link">
+              <img src="img/manager2.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="get-order">
+        <div class="get-order__container _container">
           <div class="get-started__title title">
             Как это работает?
           </div>
           <div class="get-order__items">
-            <div class="get-order__item order-item">
-              <div class="order-item__desc">
-                <div class="order-item__desc__number item-number">1</div>
-                <div class="order-item__desc__body-title item__body-title">
-                  Для бригадира со своей бригадой:
-                </div>
-              </div>
-              <div class="order-item__img-width _ibg">
-                <img src="img/manager1.jpg" alt="Фото 1">
-              </div>
+            <div class="get-started__subtitle">
+              Для бригадира со своей бригадой:
             </div>
             <div class="get-order__item order-item">
               <div class="order-item__desc">
-                <div class="order-item__desc__number item-number">2</div>
+                <div class="order-item__desc__number item-number">1</div>
                 <div class="order-item__desc__body-title item__body-title">
                   Вы откликаетесь на конкретную работу по Вашей специальности и
                   узнаете все подробности заказа
                 </div>
               </div>
-              <div class="order-item__img _ibg">
-                <img src="img/manager2.jpg" alt="Фото 2">
-              </div>
+              <a href="#image1" class="order-item__img-width _ibg popup-link">
+                <img src="img/manager1.jpg" alt="Фото 1">
+              </a>
             </div>
             <div class="get-order__item order-item">
               <div class="order-item__desc">
-                <div class="order-item__desc__number item-number">3</div>
+                <div class="order-item__desc__number item-number">2</div>
                 <div class="order-item__desc__body-title item__body-title">
                   Вы сами принимаете решение УЧАСТВОВАТЬ в конкретном заказе!
                   Перед КАЖДЫМ заказом сервис снова напоминает о правилах и критериях работы!
                 </div>
               </div>
-              <div class="order-item__img _ibg">
-                <img src="img/manager3.jpg" alt="Фото 3">
-              </div>
+              <a href="#image2" class="order-item__img _ibg popup-link">
+                <img src="img/manager2.jpg" alt="Фото 2">
+              </a>
             </div>
             <div class="get-order__item order-item">
               <div class="order-item__desc">
-                <div class="order-item__desc__number item-number">4</div>
+                <div class="order-item__desc__number item-number">3</div>
                 <div class="order-item__desc__body-title item__body-title">
                   Чтобы бригадир смог УЧАСТВОВАТЬ в заказе, ему нужно выбрать
                   из своей бригады свободных и с подходящей квалификацией
                   специалистов, с которыми можно будет выполнить конкретную работу.
                 </div>
               </div>
-              <div class="order-item__img _ibg">
-                <img src="img/manager4.jpg" alt="Фото 4">
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="get-order for-worker">
-        <div class="get-order__container _container">
-          <div class="get-order__items">
-            <div class="get-order__item order-item">
-              <div class="order-item__desc">
-                <div class="order-item__desc__number item-number">1</div>
-                <div class="order-item__desc__body-title item__body-title">
-                  Для самостоятельного специалиста:
-                </div>
-              </div>
-              <div class="order-item__img _ibg">
-                <img src="img/manager1.png" alt="Фото для рабочих 1">
-              </div>
-            </div>
-            <div class="get-order__item order-item">
-              <div class="order-item__desc">
-                <div class="order-item__desc__number item-number">2</div>
-                <div class="order-item__desc__body-title item__body-title">
-                  Вы регистрируетесь на сайте как САМОСТОЯТЕЛЬНЫЙ специалист,
-                  откликаетесь на конкретную работу по Вашей специальности и
-                  узнаете все подробности заказа.
-                </div>
-              </div>
-              <div class="order-item__img _ibg">
-                <img src="img/manager2.jpg" alt="Фото для рабочих 2">
-              </div>
-            </div>
-            <div class="get-order__item order-item">
-              <div class="order-item__desc">
-                <div class="order-item__desc__number item-number">3</div>
-                <div class="order-item__desc__body-title item__body-title">
-                  Вы сами принимаете решение УЧАСТВОВАТЬ в конкретном заказе!
-                  Перед КАЖДЫМ заказом сервис снова напоминает о правилах и критериях работы!
-                </div>
-              </div>
-              <div class="order-item__img _ibg">
-                <img src="img/manager3.png" alt="Фото для рабочих 3">
-              </div>
+              <a href="#image3" class="order-item__img _ibg popup-link"">
+                <img src=" img/manager3.jpg" alt="Фото 3">
+              </a>
             </div>
             <div class="get-order__item order-item">
               <div class="order-item__desc">
                 <div class="order-item__desc__number item-number">4</div>
                 <div class="order-item__desc__body-title item__body-title">
-                  Материал, нормы по дням сервис рассчитает автоматически
+                  Количество необходимых
+                  специалистов, материал, нормы
+                  по дням сервис рассчитает
+                  автоматически
                 </div>
               </div>
-              <div class="order-item__img _ibg">
-                <img src="img/advantages.jpg" alt="">
-              </div>
+              <a href="#image-servise-auto" class="order-item__img _ibg popup-link"">
+                <img src=" img/servise-auto.jpg" alt="Фото 4">
+              </a>
             </div>
             <div class="get-order__item order-item">
               <div class="order-item__desc">
                 <div class="order-item__desc__number item-number">5</div>
                 <div class="order-item__desc__body-title item__body-title">
-                  Самостоятельный специалист ежедневно отправляет отчеты
-                  на сервис и получает еженедельную выплату по факту принятых
-                  работ. Начисление и выплата отображается в личном
-                  кабинете самостоятельного специалиста.
+                  На странице бригадира отражены
+                  все МАСТЕРА (Исполнители),
+                  которых он выбрал при
+                  оформлении заказа.
                 </div>
               </div>
-              <div class="order-item__img _ibg">
-                <img src="img/manager3.png" alt="Фото для рабочих 5">
-              </div>
+              <a href="#image4" class="order-item__img _ibg popup-link"">
+                <img src=" img/manager4.jpg" alt="Фото 5">
+              </a>
             </div>
             <div class="get-order__item order-item">
               <div class="order-item__desc">
                 <div class="order-item__desc__number item-number">6</div>
                 <div class="order-item__desc__body-title item__body-title">
-                  Если у Вас появляется вопрос к заказчику - Вы можете задать
-                  его в формате онлайн-чата на сервисе, где сохраняется вся
-                  переписка по ВСЕМ прошлым и настоящим заказам.
+                  Бригадир ежедневно отправляет
+                  отчеты на сервис и получает
+                  еженедельную выплату для себя
+                  и своей бригады по факту
+                  принятых работ. Начисление и
+                  выплата отображается в личном
+                  кабинете бригадира.
                 </div>
               </div>
-              <div class="order-item__img _ibg">
-                <img src="img/manager3.png" alt="Фото для рабочих 6">
+              <a href="#image4" class="order-item__img _ibg popup-link"">
+                <img src=" img/manager4.jpg" alt="Фото 5">
+              </a>
+            </div>
+            <div class="get-order__item order-item">
+              <div class="order-item__desc">
+                <div class="order-item__desc__number item-number">7</div>
+                <div class="order-item__desc__body-title item__body-title">
+                  Если у бригадира появляется
+                  вопрос к заказчику - он может
+                  задать его в формате
+                  онлайн-чата на сервисе, где
+                  сохраняется вся переписка по
+                  ВСЕМ прошлым и настоящим
+                  заказам.
+                </div>
               </div>
+              <a href="#image4" class="order-item__img _ibg popup-link"">
+                <img src=" img/manager4.jpg" alt="Фото 5">
+              </a>
             </div>
           </div>
-          <div class="for-worker__footer">
-            Успешной работы!
+        </div>
+      </section> -->
+      <!-- <section class="get-order for-worker">
+        <div class="get-order__container _container">
+          <div class="get-order__items">
+            <div class="get-started__subtitle">
+              Для строителя:
+            </div>
+            <a href="#image1" class="order-item__img-width _ibg popup-link">
+              <img src="img/manager1.jpg" alt="Фото 1">
+            </a>
+            <div class="get-order__item order-item">
+              <div class="order-item__desc">
+                <div class="order-item__desc__number item-number">1</div>
+                <div class="order-item__desc__body-title item__body-title">
+                  Вы регистрируетесь на сайте как специалист,
+                  отправляете запрос в бригаду и ожидаете
+                  подтверждения от бригадира.
+                </div>
+              </div>
+              <a href="#image2" class="order-item__img _ibg popup-link">
+                <img src="img/manager2.jpg" alt="Фото 2">
+              </a>
+            </div>
+            <div class="get-order__item order-item">
+              <div class="order-item__desc">
+                <div class="order-item__desc__number item-number">2</div>
+                <div class="order-item__desc__body-title item__body-title">
+                  После добавления Вас в бригаду, Вам
+                  приходит оповещение от бригадира о подходящей
+                  Вашей квалификации работе.
+                </div>
+              </div>
+              <a href="#image3" class="order-item__img _ibg popup-link"">
+                <img src=" img/manager3.jpg" alt="Фото 3">
+              </a>
+            </div>
+            <div class="get-order__item order-item">
+              <div class="order-item__desc">
+                <div class="order-item__desc__number item-number">3</div>
+                <div class="order-item__desc__body-title item__body-title">
+                  Еженедельно через личный кабинет Вы получаете оплату
+                  за выполненную Вами работу.
+                </div>
+              </div>
+              <a href="#image4" class="order-item__img _ibg popup-link"">
+                <img src=" img/manager4.jpg" alt="Фото 4">
+              </a>
+            </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <section class="contacts">
         <div class="contacts__container _container">
           <div class="contacts__title title">
@@ -431,9 +595,82 @@
         © 2021
       </footer>
     </div>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
-    <script src="js/main.js"></script>
+  </div>
+  <div id="getstarted" class="popup">
+    <div class="popup__body">
+      <div class="popup__content popup__content_image">
+        <a href="#header" class="popup__close close-popup">
+          <img src="img/icons/close.png" alt="">
+        </a>
+        <div class="popup__image">
+          <img src="img/get-started.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="image1" class="popup">
+    <div class="popup__body">
+      <div class="popup__content popup__content_image">
+        <a href="#header" class="popup__close close-popup">
+          <img src="img/icons/close.png" alt="">
+        </a>
+        <div class="popup__image popup__image-width">
+          <img src="img/manager1.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="image2" class="popup">
+    <div class="popup__body">
+      <div class="popup__content popup__content_image">
+        <a href="#header" class="popup__close close-popup">
+          <img src="img/icons/close.png" alt="">
+        </a>
+        <div class="popup__image">
+          <img src="img/manager2.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="image3" class="popup">
+    <div class="popup__body">
+      <div class="popup__content popup__content_image">
+        <a href="#header" class="popup__close close-popup">
+          <img src="img/icons/close.png" alt="">
+        </a>
+        <div class="popup__image">
+          <img src="img/manager3.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="image-servise-auto" class="popup">
+    <div class="popup__body">
+      <div class="popup__content popup__content_image">
+        <a href="#header" class="popup__close close-popup">
+          <img src="img/icons/close.png" alt="">
+        </a>
+        <div class="popup__image">
+          <img src="img/servise-auto.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="image4" class="popup">
+    <div class="popup__body">
+      <div class="popup__content popup__content_image">
+        <a href="#header" class="popup__close close-popup">
+          <img src="img/icons/close.png" alt="">
+        </a>
+        <div class="popup__image">
+          <img src="img/manager4.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+  <script src="js/main.js"></script>
 </body>
 
 </html>
