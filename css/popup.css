@@ -44,11 +44,12 @@
 	visibility: hidden;
 	overflow-y: auto;
 	overflow-x: hidden;
-	transition: all 0.8s ease 0s;
+	transition: all 0.3s ease 0s;
 }
 .popup.open {
 	opacity: 1;
 	visibility: visible;
+	cursor: zoom-out;
 }
 .popup.open .popup__content {
 	transform: perspective(600px) translate(0px, 0%) rotateX(0deg);
@@ -74,8 +75,8 @@
 .popup__content {
 	background-color: #fff;
 	color: #000;
-    max-height: 600px;
-	max-width: 800px;
+    max-height: 700px;
+	max-width: 850px;
 	padding: 30px;
 	position: relative;
 	transition: transform 0.5s ease 0s;
@@ -87,7 +88,7 @@
 }
 .popup__image img {
 	/* min-height: 400px; */
-    max-height: 550px;
+    max-height: 750px;
 	width: 100%;
 	vertical-align: top;
 }
